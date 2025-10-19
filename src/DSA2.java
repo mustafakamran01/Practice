@@ -5,31 +5,22 @@ public class DSA2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
+        System.out.println("Enter number of rows: ");
+        int rows = scanner.nextInt();
 
-        String[] arr = new String[num];
-
-        for (int i = 0; i < num; i++) {
-            StringBuilder stringBuilder = new StringBuilder();
-
-            for (int j = 0; j < num; j++) {
-                if (i == 0 || i == num - 1) {
-                    stringBuilder.append('*');
-                }
-                else {
-                    if (j == 0 || j == num - 1) {
-                        stringBuilder.append('*');
+        for(int i = 1; i <= rows; i++){
+            for(int j = 1; j <= rows; j++){
+                if(i == 1 || i == rows){
+                    System.out.print("*");
+                } else {
+                    if(j == 1 || j == rows){
+                        System.out.print("*");
                     } else {
-                        stringBuilder.append(' ');
+                        System.out.print(" ");
                     }
                 }
             }
-            arr[i] = stringBuilder.toString();
-        }
-
-        for (String s : arr) {
-            System.out.println(s);
+            System.out.println();
         }
     }
 }
