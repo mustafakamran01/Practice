@@ -20,3 +20,12 @@ public class Pattern6 {
         }
     }
 }
+/*
+    PATTERN:
+
+    A
+    A A
+    A A A
+    A A A A
+    A A A A A
+ */
