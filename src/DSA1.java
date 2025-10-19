@@ -8,19 +8,11 @@ public class DSA1 {
         System.out.print("Enter a number: ");
         int num = scanner.nextInt();
 
-        String[] arr = new String[num];
-
         for (int i = 0; i < num; i++) {
-            StringBuilder stringBuilder = new StringBuilder(); // move inside the loop
             for (int j = 0; j < num; j++) {
-                stringBuilder.append('*');
+                System.out.print('*');
             }
-            arr[i] = stringBuilder.toString(); // convert to String
-        }
-
-        // Print the pattern to verify
-        for (String s : arr) {
-            System.out.println(s);
+            System.out.println();
         }
     }
 }
