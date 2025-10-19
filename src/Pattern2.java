@@ -29,6 +29,8 @@ public class Pattern2 {
     }
 }
 /*
+    PATTERN:
+
     * * * * *
     *       *
     *       *
