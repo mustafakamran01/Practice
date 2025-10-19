@@ -23,3 +23,12 @@ public class Pattern5 {
         }
     }
 }
+/*
+    PATTERN:
+
+            *
+          * *
+        * * *
+      * * * *
+    * * * * *
+ */

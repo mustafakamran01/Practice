@@ -21,5 +21,11 @@ public class Pattern4 {
     }
 }
 /*
+    PATTERN:
 
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
  */
