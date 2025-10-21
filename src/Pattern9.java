@@ -12,6 +12,7 @@ public class Pattern9 {
             for(int j = 1; j <= (rows-i+1); j++){
                 System.out.print(j + " ");
             }
+
             for(int j = 1; j <= (i*2)-2; j++){
                 System.out.print("* ");
             }
