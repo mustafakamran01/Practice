@@ -15,5 +15,20 @@ public class Reverse_Array_String {
             str[i] = scanner.next();
         }
 
+        String[] newStr = new String[length];
+
+        for (int i = 0; i < str.length; i++) {
+            String s = str[i];
+            StringBuilder stringBuilder = new StringBuilder();
+            for (int j = s.length() - 1; j >= 0; j--) {
+                stringBuilder.append(s.charAt(j));
+            }
+            newStr[i] = stringBuilder.toString();
+        }
+
+        for(String ele: newStr){
+            System.out.println("Element: " + ele + " ");
+        }
+
     }
 }
